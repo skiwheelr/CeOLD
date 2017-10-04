@@ -25,10 +25,10 @@
                 <ul class="nav navbar-nav nav-pills">
                     <li class="active"><a data-toggle="pill" href="#home">HOME</a></li>
                     <li><a data-toggle="pill" href="#team">TEAM</a></li>
-                    <li><a href="#">ANTIBODIES</a></li>
-                    <li><a href="#">ASSAYS</a></li>
-                    <li><a href="#">ARTICLES</a></li>
-                    <li><a href="#">STORE</a></li>
+                    <li><a data-toggle="pill" href="#antibodies">ANTIBODIES</a></li>
+                    <li><a data-toggle="pill" href="#assays">ASSAYS</a></li>
+                    <li><a data-toggle="pill" href="#articles">ARTICLES</a></li>
+                    <li><a data-toggle="pill" href="#store">STORE</a></li>
 
                 </ul>
 
@@ -38,15 +38,27 @@
         <div class="tab-content">
             <div id="home" class="tab-pane fade in active">
                 <h3>HOME</h3>
-                <p>Some content.</p>
+                <p>Custom Elisa is a Contract Research Organization bringing solutions your laboratory. <br> Our main services include the production of Antibodies and ELISAs containing them.</p>
             </div>
-            <div id="team" class="tab-pane fade">
+            <div id="team" class="tab-pane fade in active">
                 <h3>TEAM</h3>
-                <p>Some content in menu 1.</p>
+                <p>About our team..</p>
             </div>
-            <div id="menu2" class="tab-pane fade">
-                <h3>Menu 2</h3>
-                <p>Some content in menu 2.</p>
+            <div id="antibodies" class="tab-pane fade in active">
+                <h3>Antibodies</h3>
+                <p>IGY - Single Domain</p>
+            </div>
+            <div id="assays" class="tab-pane fade in active">
+                <h3>Assays & ELISA</h3>
+                <p>About our tests..</p>
+            </div>
+            <div id="articles" class="tab-pane fade in active">
+                <h3>Blog</h3>
+                <p>Blogs and Scientific Article Content..</p>
+            </div>
+            <div id="store" class="tab-pane fade in active">
+                <h3>Webstore</h3>
+                <p>Should link to Cart</p>
             </div>
         </div>
     </body>
